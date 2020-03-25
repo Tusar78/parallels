@@ -1,0 +1,22 @@
+@font-face{
+	font-family:"Lato-Regular";
+	src:url("../font/Lato-Regular.ttf") format("truetype"),
+	url("../font/Lato-Regular.eot") format("eot"),	
+	url("../font/Lato-Regular.woff") format("woff"),
+	url("../font/Lato-Regular.svg#Lato-Regular") format("svg");
+}
+@font-face{
+	font-family:"qlassik";
+	src:url("../font/Qlassik.eot") format("eot"),
+	url("../font/Qlassik.woff") format("woff"),
+	url("../font/Qlassik.ttf") format("truetype"),
+	url("../font/Qlassik.svg#Qlassik") format("svg");
+}
+@font-face{
+	font-family:"latolight";
+	src:url("../font/latolight.eot") format("eot"),
+	url("../font/latolight.woff") format("woff"),
+	url("../font/latolight.ttf") format("truetype"),
+	url("../font/latolight.svg#latolight") format("svg");
+}
+

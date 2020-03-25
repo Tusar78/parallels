@@ -1,0 +1,330 @@
+.clickable_menu{
+	display:none;
+}
+.clickable_search{
+	display:none;
+}
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.clickable_menu{
+	width: 75%;
+	background: #22262A;
+	float: right;
+	display: block;
+}
+.clickable_menu img{
+	width: 38px;
+	height: 33px;
+	border-radius: 5px;
+	vertical-align: middle;
+	margin-left: 92%;
+	cursor: pointer;
+}
+.nav .menu{
+	width: 100%;
+	text-align: center;
+}
+.nav .menu li{
+	float:none;
+}
+.search_box {
+		display: none;
+	}
+.nav .menu {
+    border-top: 1px solid #363131;
+    margin-top: 9px;
+    margin-right: 3px;
+	}
+	.nav .menu li a{
+		-webkit-transition: 1s all cubic-bezier(.45,.05,.55,.95);
+		-moz-transition: 1s all cubic-bezier(.45,.05,.55,.95);
+		transition: 1s all cubic-bezier(.45,.05,.55,.95);
+	}
+	.nav .menu li a:hover{
+		background-color:#82C339;
+		color:#fff;
+		border-radius: 5px;
+	}
+.clickable_search{
+	display:block;
+}
+.search_input_clickable{
+	width: 150px;
+    height: 30px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    position: relative;
+    top: -4px;
+}
+.clickable_search_btn{
+	
+}
+#particles-js{
+	display: block;
+}
+.clickable_search_btn i{
+		color: #fff;
+		position: relative;
+		top: 3px;
+		cursor: pointer;
+	}
+
+#first_section {
+    top: -18rem;
+}
+.portfolio_list {
+    left: 18%;
+}
+.pricing_item {
+    width: 100%;
+}
+}
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 767px) {
+.clickable_menu{
+	width: 30%;
+	background: #22262A;
+	float: right;
+	display: block;
+}
+.clickable_menu img{
+	width: 38px;
+	height: 33px;
+	border-radius: 5px;
+	vertical-align: middle;
+	margin-left: 65%;
+	cursor: pointer;
+}
+.nav .menu{
+	width: 100%;
+	text-align: center;
+}
+.nav .menu li{
+	float:none;
+}
+.search_box {
+		display: none;
+	}
+.nav .menu {
+    border-top: 1px solid #363131;
+    margin-top: 9px;
+    margin-right: 3px;
+	}
+	.nav .menu li a{
+		-webkit-transition: 1s all cubic-bezier(.45,.05,.55,.95);
+		-moz-transition: 1s all cubic-bezier(.45,.05,.55,.95);
+		transition: 1s all cubic-bezier(.45,.05,.55,.95);
+	}
+	.nav .menu li a:hover{
+		background-color:#82C339;
+		color:#fff;
+		border-radius: 5px;
+	}
+.clickable_search{
+	display:block;
+}
+.search_input_clickable{
+	width: 150px;
+    height: 30px;
+    padding: 0px 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    position: relative;
+    top: -4px;
+}
+.clickable_search_btn{
+	
+}
+
+.clickable_search_btn i{
+		color: #fff;
+		position: relative;
+		top: 3px;
+		cursor: pointer;
+	}
+#particles-js{
+	display: none;
+}
+.fs_bg_image{
+	height: 570px;
+}
+#first_section {
+    top: 13rem;
+}
+#first_section h2 {
+    font-size:50px;
+}
+#first_section h3{
+    font-size:35px;
+}
+.pricing_item {
+    width: 100%;
+}
+.services_list{
+	position:none;
+	left:0;
+}
+.service_list_single_item{
+	width:100%;
+	text-align:center;
+}
+.portfolio_list {
+    left: auto;
+}
+.portfolio_list ul li {
+    float: none;
+    text-align: center;
+}
+.portfolio_list_img_item {
+    width: 100%;
+    height: 325px;
+    margin-right: 0%;
+	left:0;
+	
+}
+.portfolio_list_img_item img {
+    width: 91.5%;
+    height: 284px;
+}
+.about_details_item{
+	width: 100%;
+}
+.pricing_item:hover{
+	transform: scale(1.0);
+}
+.pricing_item {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (max-width: 480px) {
+	.fs_bg_image{
+		width:470px;
+	}
+	#first_section h2{
+		font-size:35px;
+	}
+	#first_section h3{
+		font-size:21px;
+	}
+	#first_section{
+		top: 14rem;
+	}
+	.theme_bg_image{
+		height: 320px;
+	}
+	#section_two h2{
+		font-size:30px;
+	}
+	#section_two{
+		top: -3rem;
+	}
+	.portfolio_list_img_item img{
+		width:83.5%;
+	}
+	.pricing_bg_image{
+		height: 320px;
+	}
+	#section_three{
+		position: relative;
+		top: -3rem;
+	}
+	#section_three h2{
+		font-size:30px;
+	}
+	#section_three h3{
+		font-size:25px;
+	}
+	.stbuttonone{
+		margin-bottom: 10px;
+	}
+	
+}
+
+@media only screen and (max-width: 390px) {
+	#first_section h2{
+		font-size:29px;
+	}
+	#first_section h3{
+		font-size:18px;
+	}
+	.portfolio_list_img_item img{
+		width: 80.5%;
+	}
+}
+
+@media only screen and (max-width: 329px) {
+	#first_section h2{
+		font-size:24px;
+	}
+	#first_section h3{
+		font-size:15px;
+	}
+	.portfolio_list_img_item img{
+		width: 78.5%;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	#first_section{
+		width:85%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
